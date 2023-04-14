@@ -13,5 +13,6 @@ public class PrintableListTest {
             Printable p = iterator.next();
             p.print();
         }
+        System.out.println("End");
     }
 }

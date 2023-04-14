@@ -40,9 +40,8 @@ public class PrintableList {
     int size() {
         return size;
     }
+
     // Nicht statische innere Klasse ListIterator
-
-
     public class ListIterator {
         private int nextIndex;
         private Entry next = header.next;
